@@ -6,8 +6,32 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-:root p{
+
+/*container for the images*/
+.imcontainer{
+	text-align: center;
+}
+
+img {
+  border: 2px solid #333;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  filter: sepia(10%);
+  transition: transform 0.3s ease;
+
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+body > p{
 	text-align: justify ;
+	text-indent: ;
+}
+
+h1{
+	text-align: center;
 }
 
 h1, h4 {
