@@ -1,0 +1,32 @@
+/*styles for recipe sites except main page which has embedded css*/
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+:root p{
+	text-align: justify ;
+}
+
+h1, h4 {
+	color: darkred;
+	background-color: lightyellow;
+}
+
+ul li {
+	font-family: monospace, sans-serif;
+	color: darkolivegreen;
+	background-color: lightsteelblue;
+}
+
+ol li {
+	font-family: Garamond, sans-serif;
+	font-weight: 100;
+	background-color: lightgrey;
+}
+
+ol, ul {
+	background-color: indianred;
+}
